@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/card_design"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/labelFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:padding="10dp"
+        android:text="From"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/edt_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelFrom"
+        android:minWidth="100dp"
+        android:textSize="25sp"
+        android:layout_marginStart="10dp"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@android:color/transparent"/>
+    <TextView
+        android:id="@+id/currencyTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:text="CurrencyType"
+        android:textSize="25sp"/>
+
+    <Spinner
+        android:id="@+id/sp_types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:minWidth="100dp"
+        android:padding="10dp"
+        android:layout_below="@+id/currencyTypeLabel"/>
+
+
+
+</RelativeLayout>
