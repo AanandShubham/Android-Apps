@@ -2,6 +2,6 @@
     <string name="app_name">Gituser Finder</string>
     <string name="app_header">Profile Finder</string>
     <string name="username_hint">Enter UserName</string>
-    <string name="btn_get_text">GET</string>
+    <string name="btn_get_text">Show Data</string>
     <string name="user_header">User Details</string>
 </resources>
