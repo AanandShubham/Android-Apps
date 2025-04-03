@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TodoWithKotlin</string>
+    <string name="todo_message">Enter Todo Message</string>
+    <string name="add_btn_message">ADD</string>
+    <string name="img_btn_desc">Image button indicates that it is working as edit button</string>
+    <string name="delete_btn_hint">DELETE</string>
+    <string name="app_display_Name">Syllabus</string>
+</resources>
