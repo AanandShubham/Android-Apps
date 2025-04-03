@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotPad" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.NotPad" parent="Base.Theme.NotPad" />
+    <style name="Theme.NotPad.Splace_Theme" parent="Base.Theme.NotPad">
+        <item name="android:windowBackground">@drawable/notes_image</item>
+    </style>
+</resources>
