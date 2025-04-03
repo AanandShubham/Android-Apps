@@ -14,6 +14,7 @@
         android:minWidth="100dp"
         android:padding="10dp"
         android:text="From"
+        android:textColor="@color/black"
         android:textSize="25sp" />
     <EditText
         android:id="@+id/edt_number"
@@ -22,6 +23,7 @@
         android:layout_below="@+id/labelFrom"
         android:minWidth="100dp"
         android:textSize="25sp"
+        android:textColor="@color/black"
         android:layout_marginStart="10dp"
         android:hint="0"
         android:inputType="numberDecimal"
@@ -32,6 +34,7 @@
         android:layout_height="wrap_content"
         android:minWidth="100dp"
         android:padding="10dp"
+        android:textColor="@color/black"
         android:layout_alignParentEnd="true"
         android:text="CurrencyType"
         android:textSize="25sp"/>
@@ -41,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
         android:minWidth="100dp"
         android:padding="10dp"
         android:layout_below="@+id/currencyTypeLabel"/>
