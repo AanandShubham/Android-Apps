@@ -79,7 +79,7 @@ class RecyclerViewAdapter(private val context: Context,private val noteList: Arr
             noteList.removeAt(position)
             notifyItemRemoved(position)
             notifyDataSetChanged()
-
+            
         }
 
         holder.btnDelete.setOnClickListener {
@@ -87,18 +87,18 @@ class RecyclerViewAdapter(private val context: Context,private val noteList: Arr
             val builder = AlertDialog.Builder(context)
             builder.setMessage("Do you realy want to delete this \"Note\" ")
 
-            builder.setPositiveButton("Yes",{dil ,id ->
+            builder.setPositiveButton("Yes") { dil, id ->
                 val db = DbNotes(context)
                 db.deleteNote(noteList[position].id)
                 noteList.removeAt(position)
                 notifyItemRemoved(position)
                 notifyDataSetChanged()
-                Toast.makeText(context,"Notes Deleted Successfully",Toast.LENGTH_LONG).show()
+                Toast.makeText(context, "Notes Deleted Successfully", Toast.LENGTH_LONG).show()
                 dil.dismiss();
-            })
-            builder.setNegativeButton("No", {dil,id->
+            }
+            builder.setNegativeButton("No") { dil, id ->
                 dil.dismiss()
-            })
+            }
 
             builder.show()
         }
