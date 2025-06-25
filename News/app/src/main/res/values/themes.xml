@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.News" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="android:statusBarColor">@color/gray</item>
+    </style>
+
+    <style name="Theme.News" parent="Base.Theme.News" />
+    <style name="App.Custom.BottomNavigation"  parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/light_yellow</item>
+    </style>
+
+</resources>
