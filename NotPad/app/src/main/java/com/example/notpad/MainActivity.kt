@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.Theme_NotPad)
         binding = ActivityMainBinding.inflate(layoutInflater)
         dbNotes = DbNotes(this)
-        enableEdgeToEdge()
+//        enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
